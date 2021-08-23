@@ -1,0 +1,158 @@
+{
+  "uuid": "5c1aa22454b4b619bbc967512912d57e",
+  "path": "Offline/HomeKit-Desk-Final",
+  "name": "HomeKit-Desk-Final",
+  "content": "",
+  "created_at": "2021-08-18 12:30:27",
+  "updated_at": "2021-08-20 17:38:37",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "fed9f91b2e04e68b76d097738e389923",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dbb8c89602d84ba0aef96d1731cb5224": 1,
+        "8a0e3b9a6fb0478aaa34672929729235": 6,
+        "69174437aba825ceaf0ade8add72ef98": 6,
+        "8cb0931e7aee4571ab281a4f2e7b6e80": 1,
+        "e3eab123787c441b897fcce25e4fe427": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10pF",
+          6,
+          "C0603",
+          "C1,C2,C3,C4,C5,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603CG100J201NT",
+            "BOM_Supplier Part": "C63673",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "69174437aba825ceaf0ade8add72ef98"
+          }
+        ],
+        [
+          "5v输入",
+          1,
+          "CONN-TH_2P-P5.00",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1b3456245c4373bfecde52b7e1b1d6",
+            "uuid": "8cb0931e7aee4571ab281a4f2e7b6e80"
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.00",
+          2,
+          "CONN-TH_3P-P5.00",
+          "P2,P3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b786b51938fe4f1f9bc9380870cc425c",
+            "uuid": "e3eab123787c441b897fcce25e4fe427"
+          }
+        ],
+        [
+          "NodeMCU",
+          1,
+          "NODEMCU ESP8266-12E (MAKS)",
+          "U1",
+          {
+            "BOM_Supplier Part": "nodemcu-v2",
+            "BOM_Supplier": "Nettigo",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9fea0df7cddf4547ad0d710e4d605400",
+            "uuid": "dbb8c89602d84ba0aef96d1731cb5224"
+          }
+        ],
+        [
+          "场效应管模块",
+          6,
+          "场效应管模块",
+          "U2,U3,U4,U5,U6,U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0e84a2d4e03f4da7b0ac1e7b2d6dca03",
+            "uuid": "8a0e3b9a6fb0478aaa34672929729235"
+          }
+        ]
+      ],
+      "updateTime": 1629451387,
+      "createTime": 1629261136,
+      "histories": [],
+      "created_at": "2021-08-18 12:32:16",
+      "updated_at": "2021-08-20 17:23:07"
+    },
+    {
+      "uuid": "dd26a112d2c2917e25941ed8dc8113fc",
+      "puuid": "5c1aa22454b4b619bbc967512912d57e",
+      "title": "PCB_HomeKit-Desk-Final_2",
+      "filename": "PCB_HomeKit-Desk-Final_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e86d43893d914130bd34765c00ed5f63": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "9fea0df7cddf4547ad0d710e4d605400": 1
+      },
+      "BOM": [],
+      "updateTime": 1629262244,
+      "createTime": 1629262244,
+      "histories": [],
+      "created_at": "2021-08-18 12:50:44",
+      "updated_at": "2021-08-18 12:50:44"
+    },
+    {
+      "uuid": "bd45190264bdda9ea88a2b82be53f6f6",
+      "puuid": "5c1aa22454b4b619bbc967512912d57e",
+      "title": "PCB_HomeKit-Desk-Final",
+      "filename": "PCB_HomeKit-Desk-Final.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "be1b3456245c4373bfecde52b7e1b1d6": 1,
+        "b786b51938fe4f1f9bc9380870cc425c": 2,
+        "0e84a2d4e03f4da7b0ac1e7b2d6dca03": 6,
+        "9fea0df7cddf4547ad0d710e4d605400": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 6
+      },
+      "BOM": [],
+      "updateTime": 1629452317,
+      "createTime": 1629287372,
+      "histories": [],
+      "created_at": "2021-08-18 19:49:32",
+      "updated_at": "2021-08-20 17:38:37"
+    }
+  ],
+  "sort": [],
+  "title": "HomeKit-Desk-Final",
+  "foldername": "HomeKit-Desk-Final",
+  "schfilename": "HomeKit-Desk-Final.json",
+  "schfilemtime": 1629451387515
+}
